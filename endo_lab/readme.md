@@ -1,5 +1,10 @@
-# Notes
+# Readme
 
-1. model throws an error which seems to be about Q_sigma (transition probability under a policy function which it calculates.) Should recheck all equations
-2. There are two action variables -> a_{t+1} and l_t.
-3. Need to see if memory management is still an issue. Feels like the most intense part is when the program defines Q and R. Post that, the loops should be fine.
+The model in the ipynb works without errors. But need to check if the answers are actually correct.
+
+Potential candidates for this:
+1. http://martinfloden.net/files/Floden%20M%20-%20Linde%20J%20-%20RED%202001.pdf -> have endogenous labour
+
+
+Code is suspicious. By using a not-so-random markov chain for the exogenous process, the asset distribution looks
+insane
